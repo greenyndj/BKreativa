@@ -401,7 +401,7 @@ const hue = s => { let h=0; for(const c of String(s)) h=(h*31+c.charCodeAt(0))%3
 /* ================= SINCRONIZACIÓN EN LÍNEA (SUPABASE) =================
    Para no escribir la conexión en cada dispositivo, puedes pegar aquí tu
    Project URL y tu anon public key (Supabase → Project Settings → API).   */
-const SUPA_DEFAULT = { url:'', key:'' };
+const SUPA_DEFAULT = { url:'https://supabase.com/dashboard/project/brcebuxjpixiolhebgkf', key:'sb_publishable_rygu-cMuwI8Rg5b25WlnMA_O44BWLdj' };
 const SUPA_LS='bk_supa', CACHE_KEY='bk_cache_nube';
 const TABLAS = ['insumos','pedidos','gastos','ventas','productos'];
 let sb=null, sbUser=null, sbChannel=null;
